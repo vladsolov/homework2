@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Материалы на складе</title>
+</head>
+
+<body>
+    <form>
+        <h1>Список Материалов</h1>
+        <ul>
+            <li>
+                <label for="Cement">Цемент</label>
+                <input type="button" id="Cement" value="Осмотреть" onclick="location.href='cement.html' ">
+            </li>
+            <li>
+                <label>Доска</label>
+                <select name="boardlist" id="boardlist">
+                    <option value="Сhoose" disabled selected hidden>Выберите размер</option>
+                    <option value="125x50">125x50</option>
+                    <option value="250x50">250x50</option>
+                    <option value="50x50">50x50</option>
+                </select>
+            </li>
+            <li>
+                <label>Кирпич</label>
+                <label>
+                    <input type="radio" name="Bricks"><em>Белый 1x5x10 px</em>
+                </label>
+                <label>
+                    <input type="radio" name="Bricks"><em>Красный 10x5x15 px</em>
+                </label>
+            </li>
+
+
+            <li>
+                <label>Гвозди</label>
+                <select name="boardlist2" id="boardlist2">
+                    <option value="Сhoose" disabled selected hidden>Выберите размер</option>
+                    <option value="100x10">125x50</option>
+                    <option value="150x15">250x50</option>
+                    <option value="200x30">50x50</option>
+                </select>
+            </li>
+        </ul>
+        <input type="submit" value="Oтравить">
+    </form>
+
+</body>
+
+</html>
